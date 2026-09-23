@@ -11,8 +11,11 @@ and image optimization, from a single client with no third-party dependencies.
 ## Installation
 
 ```bash
-pip install dashamail
+pip install dashamail-python
 ```
+
+The distribution is named `dashamail-python` (the bare `dashamail` name on PyPI belongs to an
+unrelated third-party project), but the import stays `import dashamail`.
 
 ## Getting an API key
 
