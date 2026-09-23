@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dashamail"
+version = "1.0.0"
+description = "Official Python SDK for the DashaMail REST API v2"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "DashaMail", email = "support@dashamail.ru" }]
+requires-python = ">=3.7"
+keywords = ["dashamail", "email", "sdk", "api", "transactional email", "email marketing", "smtp"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Email",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://dashamail.ru/api/"
+Documentation = "https://dashamail.ru/api/"
+Repository = "https://github.com/DashaMail/dashamail-python"
+Issues = "https://github.com/DashaMail/dashamail-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
